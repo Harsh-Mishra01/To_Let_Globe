@@ -1,0 +1,61 @@
+/* src/HomePage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-page {
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://img.freepik.com/free-vector/scene-with-green-field-bush_1308-72307.jpg?t=st=1720763209~exp=1720766809~hmac=fcf35161192f404f870218b5fc3247138648528197a9c51c4aeaac821ccaf9fd&w=1380'); /* Replace with your own image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+  }
+  
+  .landing-page h1 {
+    margin-top: 200px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .landing-page p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .landing-page .contact-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  .landing-page .contact-link:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
